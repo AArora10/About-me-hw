@@ -11,7 +11,7 @@ h1{
 }
 img{
     border-radius:25%;
-    width:100px;
+    width:200px;
 }
 
 p{
@@ -40,3 +40,10 @@ p{
     font-family:inherit;
     font-size:20px;
 }
+
+#gif{
+    transition:transform .2s;
+    
+}
+#gif:hover{
+    transform: scale(0.9);
